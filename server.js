@@ -3,7 +3,7 @@ dotenv.config({path: "../.env"});
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const connectDb = require("../Backend/db");
+const connectDb = require("./db");
 const cookieParser = require("cookie-parser");
 const Port = 5000;
 
